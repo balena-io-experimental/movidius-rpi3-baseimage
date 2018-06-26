@@ -4,6 +4,9 @@ This project produces a base image for the [Movidius Neural Compute Stick](https
 
 This image does not build Caffe or the NCS Toolkit, so running/compiling the graphs in this image will fail, you should rather produce the graphs on an x86 Ubuntu machine as described in the NCS getting started.
 
+Note to build this image you will need to either build on Docker for MacOS (which supports armv7 builds) or follow this blog post: https://resin.io/blog/building-arm-containers-on-any-x86-machine-even-dockerhub/
+
+
 ### List of Python modules installed:
 absl-py (0.2.2)
 astor (0.6.2)
